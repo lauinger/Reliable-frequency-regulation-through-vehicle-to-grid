@@ -22,7 +22,8 @@ The jupyter notebooks
 3. `Delivery_Payment.ipynb`,
 4. `Driving.ipynb`,
 5. `Frequency.ipynb`,
-6. `Utility_Price.ipynb`.
+6. `Utility_Price.ipynb`
+
 describe the data creation of processed data.
 
 The raw data stems from the French Transmission System Operator RTE and is linked to in the corresponding jupyter notebooks. For reproducibility, it is also included in this repository.
