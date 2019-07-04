@@ -7,7 +7,7 @@ The code files are
 2. `my_functions.py`.
 
 The processed data files are
-1. `ds.h5`: vehicle state (*s*) and power for driving (*d*) in kW,
+1. `ds.h5`: vehicle state and power for driving in kW,
 2. `pa.h5`: availability price with half hourly resolution from 2015 through 2018 in EURO/kW/h,
 3. `pb.h5`: utility price with half hourly resolution from 2015 through 2018 in EURO/kWh,
 4. `pd.h5`: delivery price with half hourly resolution from 2015 through 2018 in EURO/kWh,
