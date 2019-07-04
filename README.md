@@ -24,9 +24,9 @@ The jupyter notebooks
 5. `Frequency.ipynb`,
 6. `Utility_Price.ipynb`
 
-describe the data creation of processed data.
+describe the creation of processed data from raw data.
 
-The raw data stems from the French Transmission System Operator RTE and is linked to in the corresponding jupyter notebooks. For reproducibility, it is also included in this repository.
+The raw data stems from the French Transmission System Operator RTE and is linked to its source in the corresponding jupyter notebooks. For reproducibility, it is also included in this repository.
 1. The availability price is found in the excel files `Availability_2015` to `Availability_2018`.
 2. The delivery price is found in the excel files `Delivery_2015` to `Delivery_2018`.
 3. The frequency measurements are found in the text files `RTE_Frequence_2015_01.txt` to `RTE_Frequence_2018_12.txt`.
