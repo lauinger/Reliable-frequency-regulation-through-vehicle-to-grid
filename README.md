@@ -1,6 +1,6 @@
 # Reliable frequency regulation through vehicle-to-grid
 
-This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, Francois Vuille, and Daniel Kuhn, which appeared in journal in yyyy.
+This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, François Vuille, and Daniel Kuhn, which appeared in journal in yyyy.
 
 The code files are
 1. `Main.py`,
