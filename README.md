@@ -1,6 +1,6 @@
 # Reliable frequency regulation through vehicle-to-grid
 
-The code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, Francois Vuille, and Daniel Kuhn, which appeared in journal in yyyy.
+This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, Francois Vuille, and Daniel Kuhn, which appeared in journal in yyyy.
 
 The code files are
 1. `Main.py`,
@@ -39,3 +39,7 @@ The software used in this project was
 4. Gurobi's python interface `gurobipy`.
 
 All numerical experiments were run on a workstation with 64GB RAM and an Intel i7-6700 CPU @ 3.40 GHz processor with a 64-bit operating system.
+
+For inquiries please contact dirk.lauinger@epfl.ch
+
+July 2019
