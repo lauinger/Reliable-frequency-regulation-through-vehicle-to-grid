@@ -33,7 +33,7 @@ The raw data stems from the French Transmission System Operator RTE and is linke
 4. The color of each day for the 'Tempo' pricing scheme is found in the excel files `Tempo_2014-2015.xlsx` to `Tempo_2018-2019.xlsx`.
 
 The software used in this project was
-1. Spyder 3.3.3 from the anaconda distribution with Python 3.6.8 64-bit,
+1. Spyder 3.3.3 from the anaconda distribution with Python 3.6.8 64-bit and IPython 7.4.0,
 2. JupyterLab 0.35.4,
 3. Gurobi 8.1.0 with an academic license,
 4. Gurobi's python interface `gurobipy`.
