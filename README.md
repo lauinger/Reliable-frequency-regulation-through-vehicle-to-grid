@@ -1,6 +1,6 @@
 # Reliable frequency regulation through vehicle-to-grid
 
-This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, François Vuille, and Daniel Kuhn, available at ... This project was funded by the [Institut VEDECOM](http://www.vedecom.fr/).
+This repository supplements the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, François Vuille, and Daniel Kuhn, available at ... This project was funded by the [Institut VEDECOM](http://www.vedecom.fr/).
 
 The code files are
 1. `Main.py`,
