@@ -6,29 +6,13 @@ The code files are
 1. `Main.py`,
 2. `my_functions.py`.
 
-The processed data files in the folder `Processed_data_excluding_frequency_deviations` are
+The processed data files in the folder `Processed_data_excluding_frequency_deviations.zip` are
 1. `ds.h5`: vehicle state and power for driving in kW,
 2. `pa.h5`: availability price with half hourly resolution from 2015 to 2019 in €/kW/h,
 3. `pb.h5`: utility price with half hourly resolution from 2015 to 2019 in €/kWh,
 4. `pr.h5`: regulation price with half hourly resolution from 2015 to 2019 in €/kW/h.
 
-The file `delta_10s.h5` is 250MB large and excluded from this repository for space reasons. It can be constructed by running the jupyter notebook `Frequency.ipynb`.
-
-The jupyter notebooks
-1. `Availability_Price.ipynb`,
-2. `Delivery_Price.ipynb`,
-3. `Delivery_Payment.ipynb`,
-4. `Driving.ipynb`,
-5. `Frequency.ipynb`,
-6. `Utility_Price.ipynb`
-
-describe the creation of processed data from raw data.
-
-The raw data stems from the French Transmission System Operator RTE and is linked to its source in the corresponding jupyter notebooks. For reproducibility, it is also included in this repository.
-1. The availability price is in the excel files `Availability_2015` to `Availability_2019.
-2. The delivery price is in the excel files `Delivery_2015` to `Delivery_2019`.
-3. The frequency measurements are in the text files `RTE_Frequence_2015_01.txt` to `RTE_Frequence_2019_12.txt`.
-4. The color of each day for the 'Tempo' pricing scheme is found in the excel files `Tempo_2014-2015.xlsx` to `Tempo_2019-2020.xlsx`.
+The file `delta_10s.h5` is 250MB large and excluded from this repository for space reasons. It can be constructed from raw data by running the jupyter notebook `Frequency.ipynb` in the folder `Data_Processing_and_Analysis.zip`. This folder includes the jupyter notebooks: `Availability_Price.ipynb`, `Delivery_Price.ipynb`, `Delivery_Payment.ipynb`, `Driving.ipynb`, `Frequency.ipynb`, and `Utility_Price.ipynb`. Each of these notebooks serves to convert raw data into processed data. The exact use of each notebook is described in its header. The notebooks provide links to the sources of the raw data. For convenience and reproducibility, we make copies of the raw data available in the folders: `Raw_Price_Data.zip`, `Raw_Frequency_Deviation_Data_2015-2016.zip`, `Raw_Frequency_Deviation_Data_2017-2018.zip`, and `Raw_Price_Data.zip`.
 
 The software used in this project was
 1. Spyder 3.3.6 from the anaconda distribution with Python 3.6.9 64-bit and IPython 7.12.0,
