@@ -6,15 +6,13 @@ The code files are
 1. `Main.py`,
 2. `my_functions.py`.
 
-The processed data files are
+The processed data files in the folder `Processed_data_excluding_frequency_deviations` are
 1. `ds.h5`: vehicle state and power for driving in kW,
-2. `pa.h5`: availability price with half hourly resolution from 2015 through 2018 in EURO/kW/h,
-3. `pb.h5`: utility price with half hourly resolution from 2015 through 2018 in EURO/kWh,
-4. `pd.h5`: delivery price with half hourly resolution from 2015 through 2018 in EURO/kWh,
-5. `pdd.h5`: delivery payment with half hourly resolution from 2015 through 2018 in EURO/kW/h,
-6. `pr.h5`: total reserve price with half hourly resolution from 2015 through 2018 in EURO/kW/h.
+2. `pa.h5`: availability price with half hourly resolution from 2015 to 2019 in €/kW/h,
+3. `pb.h5`: utility price with half hourly resolution from 2015 to 2019 in €/kWh,
+4. `pr.h5`: regulation price with half hourly resolution from 2015 to 2019 in €/kW/h.
 
-The file `delta_10s.h5` takes about 200MB and is for space reasons not included in this repository. It can be constructed by running the jupyter notebook `Frequency.ipynb`.
+The file `delta_10s.h5` is 250MB large and excluded from this repository for space reasons. It can be constructed by running the jupyter notebook `Frequency.ipynb`.
 
 The jupyter notebooks
 1. `Availability_Price.ipynb`,
