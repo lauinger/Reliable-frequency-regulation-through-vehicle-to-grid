@@ -1,6 +1,6 @@
 # Reliable frequency regulation through vehicle-to-grid
 
-This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, François Vuille, and Daniel Kuhn, which appeared in journal in yyyy.
+This code and data supplement the article "Reliable frequency regulation through vehicle-to-grid" by Dirk Lauinger, François Vuille, and Daniel Kuhn, available at ...
 
 The code files are
 1. `Main.py`,
@@ -27,19 +27,19 @@ The jupyter notebooks
 describe the creation of processed data from raw data.
 
 The raw data stems from the French Transmission System Operator RTE and is linked to its source in the corresponding jupyter notebooks. For reproducibility, it is also included in this repository.
-1. The availability price is found in the excel files `Availability_2015` to `Availability_2018`.
-2. The delivery price is found in the excel files `Delivery_2015` to `Delivery_2018`.
-3. The frequency measurements are found in the text files `RTE_Frequence_2015_01.txt` to `RTE_Frequence_2018_12.txt`.
-4. The color of each day for the 'Tempo' pricing scheme is found in the excel files `Tempo_2014-2015.xlsx` to `Tempo_2018-2019.xlsx`.
+1. The availability price is in the excel files `Availability_2015` to `Availability_2019.
+2. The delivery price is in the excel files `Delivery_2015` to `Delivery_2019`.
+3. The frequency measurements are in the text files `RTE_Frequence_2015_01.txt` to `RTE_Frequence_2019_12.txt`.
+4. The color of each day for the 'Tempo' pricing scheme is found in the excel files `Tempo_2014-2015.xlsx` to `Tempo_2019-2020.xlsx`.
 
 The software used in this project was
-1. Spyder 3.3.3 from the anaconda distribution with Python 3.6.8 64-bit and IPython 7.4.0,
-2. JupyterLab 0.35.4,
-3. Gurobi 8.1.0 with an academic license,
+1. Spyder 3.3.6 from the anaconda distribution with Python 3.6.9 64-bit and IPython 7.12.0,
+2. JupyterLab 1.1.3,
+3. Gurobi 9.0.0 with an academic license,
 4. Gurobi's python interface `gurobipy`.
 
 All numerical experiments were run on a workstation with 64GB RAM and an Intel i7-6700 CPU @ 3.40 GHz processor with a 64-bit operating system.
 
 For inquiries please contact dirk.lauinger@epfl.ch
 
-July 2019
+April 2020
