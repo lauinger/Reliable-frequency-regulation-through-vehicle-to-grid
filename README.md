@@ -6,12 +6,11 @@ The code files are
 1. `Main.py`,
 2. `my_functions.py`.
 
-The processed data files in the folder `Processed_data_excluding_frequency_deviations.zip` are
-1. `ds.h5`: vehicle state and power consumption for driving in kW,
-2. `pa.h5`: availability price in €/kW/h,
-3. `pb.h5`: utility price in €/kWh,
-4. `pr.h5`: regulation price in €/kW/h.
-They all have a time resolution of 30 minutes and span the years from 2015 to 2019.
+The processed data files in the folder `Processed_data_excluding_frequency_deviations.zip` all have a time resolution of 30 minutes and span the years from 2015 to 2019. These files are:
+1. `ds.h5`: the vehicle's state and power consumption for driving in kW,
+2. `pa.h5`: the availability price in €/kW/h,
+3. `pb.h5`: the utility price in €/kWh,
+4. `pr.h5`: the estimated and true regulation price in €/kW/h.
 
 The file `delta_10s.h5` is 250MB large and excluded from this repository for space reasons. It can be constructed from raw data by running the jupyter notebook `Frequency.ipynb` in the folder `Data_Processing_and_Analysis.zip`. This folder includes the jupyter notebooks: `Availability_Price.ipynb`, `Delivery_Price.ipynb`, `Delivery_Payment.ipynb`, `Driving.ipynb`, `Frequency.ipynb`, and `Utility_Price.ipynb`. Each of these notebooks serves to convert raw data into processed data. The exact use of each notebook is described in its header. The notebooks provide links to the sources of the raw data. For convenience and reproducibility, we make copies of the raw data available in the folders: `Raw_Price_Data.zip`, `Raw_Frequency_Deviation_Data_2015-2016.zip`, `Raw_Frequency_Deviation_Data_2017-2018.zip`, and `Raw_Price_Data.zip`.
 
