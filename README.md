@@ -24,4 +24,4 @@ All numerical experiments were run on a workstation with 64GB RAM and an Intel i
 
 For inquiries please contact dirk.lauinger@epfl.ch
 
-April 2020
+May 2020
