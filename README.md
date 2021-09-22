@@ -12,7 +12,7 @@ The folder `_base` contains a main file to run the nominal scenario described in
 All other folders contain a main file that is specific to a certain experiment. The results of the experiment are saved in .h5 files and visualized in jupyter notebooks within each experiment folder, except for `Bid_at_midnight`. The runtimes are in the name of an otherwise empty textfile within each experiment folder. In addition, all intermediate results are saved in the `Results` folder within each experiment folder.
 
 The processed data files in the folder `Processed_data_excluding_frequency_deviations.zip` all have a time resolution of 30 minutes and span the years from 2015 to 2019. These files are:
-1. `ds.h5`: the vehicle's state and power consumption for driving in kW,
+1. `ds_driving_time.h5`: the vehicle's state and power consumption for driving in kW,
 2. `pa.h5`: the availability price in €/kW/h,
 3. `pb.h5`: the utility price in €/kWh,
 4. `pr.h5`: the estimated and true regulation price in €/kW/h.
