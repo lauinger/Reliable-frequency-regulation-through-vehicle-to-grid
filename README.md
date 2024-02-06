@@ -21,7 +21,7 @@ and the folders:
 
 Folders 4-10 contain a main file that is specific to each experiment. The results of the experiment are saved in .h5 files and visualized in jupyter notebooks, except for `Bid_at_midnight`. The runtimes are in the name of an otherwise empty textfile. When reproducing the experiments, all intermediate results will be saved in a `Results` folder. The folder `Overselling` contains several main files for various penalty parameters.
 
-The folder `Processed_data_excluding_frequency_deviations.zip` contains time series produced with the data analysis scripts in `Data_Processing_and_Analysis.zp`. All time series have a time resolution of 30 minutes and span the years from 2015 to 2019. These files are:
+The folder `Processed_data_excluding_frequency_deviations.zip` contains time series produced with the data analysis scripts in `Data_Processing_and_Analysis.zip`. All time series have a time resolution of 30 minutes and span the years from 2015 to 2019. These files are:
 1. `ds.h5`: the vehicle's state and power consumption for driving in kW,
 2. `pa.h5`: the availability price in €/kW/h,
 3. `pb.h5`: the utility price in €/kWh,
