@@ -1,6 +1,6 @@
 # Reliable Frequency Regulation through Vehicle-to-Grid: Encoding Legislation with Robust Constraints
 
-This repository supplements the article "Reliable frequency regulation through vehicle-to-grid: Encoding legislation with robust constraints" by Dirk Lauinger, François Vuille, and Daniel Kuhn, available at https://pubsonline.informs.org/doi/10.1287/msom.2022.0154 and https://arxiv.org/pdf/2005.06042v4.pdf. This project was funded by the [Institut VEDECOM](http://www.vedecom.fr/). A recording of a talk based on this paper is available at https://www.youtube.com/watch?v=VTaooISx9yI and the slides are available at https://drive.switch.ch/index.php/login?redirect_url=%252Findex.php%252Fapps%252Ffiles%252F%253Fdir%253D%252F%2526fileid%253D54870050.
+This repository supplements the article "Reliable frequency regulation through vehicle-to-grid: Encoding legislation with robust constraints" by Dirk Lauinger, François Vuille, and Daniel Kuhn, available at https://pubsonline.informs.org/doi/10.1287/msom.2022.0154 and https://arxiv.org/pdf/2005.06042v4.pdf. This project was funded by the [Institut VEDECOM](http://www.vedecom.fr/). A recording of a talk based on this paper is available at https://www.youtube.com/watch?v=VTaooISx9yI and the slides are available at https://drive.switch.ch/index.php/s/81jvp4lDxaWi8HP.
 
 The code files are in the folder `Experiments`, which includes the files:
 1. `my_functions.py`: the functions called by the main files for each experiments,
